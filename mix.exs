@@ -31,8 +31,8 @@ defmodule Arc.Storage.Rackspace.Mixfile do
 
   defp deps do
     [
-      {:arc, "~> 0.6.0"},
-      {:poison, "~> 2.0"},
+      {:arc, "~> 0.8.0"},
+      {:poison, "~> 3.0", override: true},
       {:rackspace, github: "livehelpnow/ex-rackspace"}
     ]
   end
